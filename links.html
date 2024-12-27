@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html links</title>
+    <style>
+        a:link{
+            color:blue;  
+            /* unvisited */
+        }
+        a:visited{
+            color:rgb(6, 223, 17); 
+            /* visited */
+        }
+        a:hover{
+           color:#ff0000;
+           font-size:50px;
+           transition:1s;
+         transform:rotateY(300deg);
+        }
+        a:hover-rotate:hover img {
+  transform: scale(1.3) rotate(360deg);
+}
+        a:active{
+            color:blueviolet;
+            /* active  */
+        }
+    </style>
+</head>
+<body link="green" vlink="#0000FF" alink="orange">
+    <!-- Hyperlink -->
+     <h1>Hyperlink</h1>
+     <a href="https://edusanjal.com/college/shikshyalaya-college/" target="_blank" title="college">
+        go to shikshyalaya college
+     </a>
+<hr>
+     <!-- link with box -->
+      <h1>Link with box</h1>
+      <a href="https://edusanjal.com/college/shikshyalaya-college/" title="go to college" target="_blank">
+        <div style="height:200px; width:350px; background-color: aqua;">
+            shikshyalaya
+           
+        </div>
+       
+      </a>
+<hr> 
+<!-- link with image  -->
+ <h1>Link with image</h1>
+ <a href="https://www.daraz.com.np/" title="navigate to daraz" target="_blank">
+    <img src="https://i0.wp.com/www.nepallivetoday.com/wp-content/uploads/2022/01/PR-cover.png?fit=700%2C400&ssl=1" alt="daraz logo" height="250"/>
+ </a>
+ <hr>
+ <h1>button as a link</h1>
+ <button onclick="window.location='https://www.collegenp.com/college/shikshyalaya-college-bhaktapur'">
+    Go To College
+ </button>
+<hr>
+
+<h1>Send mail using link</h1>
+<a href="mailto:bhandaribabita383@gmail.com? subject=message & body=hello" title="send mail">
+    send mail
+</a>
+
+ 
+
+    
+</body>
+</html>
