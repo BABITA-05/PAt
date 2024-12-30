@@ -1,7 +1,7 @@
 /* all element selector: should add in all css */
 body{
     margin:0;
-    padding:opx;
+    padding:0px;
     box-sizing:border-box;
 }
 /* id selector */
