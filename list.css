@@ -89,3 +89,11 @@ body{
     border-radius: 10px 10px 0px 0px;
 
 }
+#bb{
+    background-color: rgb(206, 201, 201);
+}
+#bb1{
+    background-color: rgb(206, 201, 201);
+    border: 2px solid rgb(206, 201, 201);
+    height: 100px;
+}
