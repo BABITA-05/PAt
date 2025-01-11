@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formats of table</title>
+    <link rel="stylesheet" href="./format.css">
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Roll No.</th>
+            <th colspan="2">Full Name </th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <th>Bijaya</th>
+            <th >Bhandari</th>
+            <td>18</td> 
+        </tr>
+        <tr>
+            <td>2.</td>
+            <th>Asmita</th>
+            <th >Bhandari</th>
+            <td>14</td>  
+        </tr>
+        <table border="1">
+            <tr>
+                <th>Roll No</th>
+                <td>1.</td>
+                <td>2.</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Full Name</th>
+                <th>Bijaya</th>
+                <th>Asmita</th>
+            </tr>
+            <tr>
+                <th>Bhandari</th>
+                <th>Bhandari</th>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>18</td>
+                <td>14</td>
+            </tr>
+            <hr>
+            <table>
+                <colgroup>
+                <col span="1" style="background-color: blue;">
+                <col span="2">
+                <col span="1" style="background-color: aqua;">
+                <col span="1" style="background-color: blueviolet;">
+                <col span="1" style="background-color: yellowgreen;">
+
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th colspan="4">Student Details</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">Note:This is the test data</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <th>Roll No</th>
+                        <th colspan="2">Full Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <th>Bijaya</th>
+                        <th>Bhandari</th>
+                        <td>18</td>
+                    </tr>
+                </tbody>
+                <table>
+                    <tr>
+                        <th>S.N</th>
+                        <th>Fruits</th>
+                        <th>Weight</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <th>Apple</th>
+                        <td>20Kg</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <th>Orange</th>
+                        <td>30Kg</td>
+                    </tr>
+                </table>
+            </table>
+        </table>
+    </table>
+</body>
+</html>

@@ -1,0 +1,16 @@
+tr:nth-child(odd){
+    background-color: skyblue;
+}
+tr:nth-child(even){
+    background-color: goldenrod;
+}
+table{
+    border-bottom:3px solid gray;
+}
+th,td{
+    border-bottom: 3px solid pink;
+    padding: 30px;
+}
+table{
+    border-spacing: 20px;
+}
